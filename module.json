@@ -1,0 +1,36 @@
+{
+    "name": "retroactive-critical-5e",
+    "title": "Retroactive Critical DnD5e",
+    "description": "A module which allows rerolling d20 rolls from chat.",
+    "version": "1.0.0",
+    "author": "Andrew Krigline",
+    "authors": [
+        {
+            "name": "Andrew Krigline",
+            "discord": "Calego#0914",
+            "url": "https://github.com/ElfFriend-DnD",
+            "ko-fi": "elffriend",
+            "patreon": "ElfFriend_DnD"
+        }
+    ],
+    "system": [
+        "dnd5e"
+    ],
+    "scripts": [
+        "./scripts/retroactive-critical-5e.js"
+    ],
+    "styles": [
+        "./styles/retroactive-critical-5e.css"
+    ],
+    "dependencies": [
+        {
+            "name": "socketlib"
+        }
+    ],
+    "socket": true,
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "flags": {
+        "allowBugReporter": true
+    }
+}
